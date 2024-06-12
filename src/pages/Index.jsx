@@ -52,12 +52,12 @@ const Index = () => {
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
       <VStack spacing={4}>
-        <Text fontSize="2xl">Doublage Français - Reconnaissance d'Acteurs et d'Actrices</Text>
+        <Text fontSize="2xl">Doublage Française - Reconnaissance d'Acteurs et d'Actrices</Text>
         <Box {...getRootProps()} border="2px dashed" borderColor="gray.300" padding={4} borderRadius="md" cursor="pointer">
           <input {...getInputProps()} />
           <Text>Glissez et déposez un fichier audio ici, ou cliquez pour sélectionner un fichier</Text>
           <Button leftIcon={<FaUpload />} mt={2}>
-            Upload Audio
+            Télécharger Audio
           </Button>
         </Box>
         {loading && <Spinner size="xl" />}
